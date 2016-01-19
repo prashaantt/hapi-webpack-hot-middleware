@@ -18,7 +18,7 @@ $ npm install hapi-webpack-hot-middleware --save-dev
 Require this plugin along with [hapi-webpack-dev-middleware](https://github.com/prashaantt/hapi-webpack-dev-middleware) and register them normally:
 
 ```js
-const HapiWebpackDevMiddleware = require('hapi-webpack-dev-middleware);
+const HapiWebpackDevMiddleware = require('hapi-webpack-dev-middleware');
 const HapiWebpackHotMiddleware = require('hapi-webpack-hot-middleware');
 
 
