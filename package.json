@@ -1,0 +1,30 @@
+{
+  "name": "hapi-webpack-hot-middleware",
+  "version": "1.0.0",
+  "description": "hapi plugin to use webpack-hot-middleware",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prashaantt/hapi-webpack-hot-middleware"
+  },
+  "author": "Prashant Tiwari <prashaantt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prashaantt/hapi-webpack-hot-middleware/issues"
+  },
+  "homepage": "https://github.com/prashaantt/hapi-webpack-hot-middleware",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "code": "^2.1.0",
+    "eslint-config-hapi": "^8.0.1",
+    "eslint-plugin-hapi": "^4.0.0",
+    "hapi": "^12.1.0",
+    "lab": "^8.0.2"
+  },
+  "dependencies": {
+    "hapi-webpack-dev-middleware": "^1.0.0",
+    "webpack-hot-middleware": "^2.6.0"
+  }
+}
