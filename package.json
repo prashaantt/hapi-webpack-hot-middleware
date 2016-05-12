@@ -1,6 +1,6 @@
 {
   "name": "hapi-webpack-hot-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "hapi plugin to use webpack-hot-middleware",
   "main": "index.js",
   "repository": {
@@ -17,14 +17,15 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {
-    "code": "^2.1.0",
-    "eslint-config-hapi": "^8.0.1",
-    "eslint-plugin-hapi": "^4.0.0",
-    "hapi": "^12.1.0",
-    "lab": "^8.0.2"
+    "code": "2.3.0",
+    "eslint": "2.9.0",
+    "eslint-config-hapi": "9.1.0",
+    "eslint-plugin-hapi": "4.0.0",
+    "hapi": "13.4.0",
+    "lab": "10.5.1"
   },
   "dependencies": {
-    "hapi-webpack-dev-middleware": "^1.0.0",
-    "webpack-hot-middleware": "^2.6.0"
+    "hapi-webpack-dev-middleware": "1.0.1",
+    "webpack-hot-middleware": "2.10.0"
   }
 }
