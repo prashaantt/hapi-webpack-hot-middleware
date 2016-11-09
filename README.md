@@ -5,6 +5,9 @@ hapi plugin to use webpack-hot-middleware.
 [![Dependency Status](https://david-dm.org/prashaantt/hapi-webpack-hot-middleware.svg)](https://david-dm.org/prashaantt/hapi-webpack-hot-middleware)
 [![devDependency Status](https://david-dm.org/prashaantt/hapi-webpack-hot-middleware/dev-status.svg?theme=shields.io)](https://david-dm.org/prashaantt/hapi-webpack-hot-middleware#info=devDependencies)
 
+## Breaking change in 2.0
+
+Upgraded to use Webpack 2.
 
 ## Installation
 
