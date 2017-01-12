@@ -17,7 +17,7 @@ exports.register = (server, options, next) => {
         middleware(req, res, (err) => {
 
             if (err) {
-                return reply(error);
+                return reply(err);
             }
 
             return reply.continue();
